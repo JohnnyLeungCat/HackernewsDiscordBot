@@ -20,5 +20,5 @@ jobs:
         run: pip install requests
       - name: Notify Discord with top 3 Hacker News stories
         env:
-          DISCORD_WEBHOOK: ${{ secrets.HACKERNEWS_DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python fetch_and_notify_hn.py 
