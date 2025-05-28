@@ -19,4 +19,8 @@ This project posts the top 3 stories from Hacker News to a Discord channel every
 
 ---
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 Feel free to modify the script or workflow to suit your needs! 
