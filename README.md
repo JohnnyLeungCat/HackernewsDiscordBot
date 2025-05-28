@@ -17,8 +17,9 @@ This project posts the top 3 stories from Hacker News to a Discord channel every
   - Formats their titles and links.
   - Posts them to Discord using the webhook.
 
+Feel free to clone and do what you will with this!
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Feel free to modify the script or workflow to suit your needs! 
