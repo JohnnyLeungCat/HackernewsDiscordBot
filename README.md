@@ -8,7 +8,7 @@ This project posts the top 3 stories from Hacker News to a Discord channel every
 - Automated using GitHub Actions.
 
 ## Setup
-1. **Discord Webhook**: Add your Discord webhook URL as a GitHub secret named `HACKERNEWS_DISCORD_WEBHOOK`.
+1. **Discord Webhook**: Add your Discord webhook URL as a GitHub secret named `DISCORD_WEBHOOK`.
 2. **Workflow**: The workflow runs daily at 9:00 UTC and can also be triggered manually.
 
 ## How it Works
@@ -16,8 +16,6 @@ This project posts the top 3 stories from Hacker News to a Discord channel every
   - Fetches the top 3 stories from Hacker News.
   - Formats their titles and links.
   - Posts them to Discord using the webhook.
-
----
 
 ## License
 
