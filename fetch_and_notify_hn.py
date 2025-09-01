@@ -8,7 +8,7 @@ if not webhook_url:
 
 # Fetch top stories from Hacker News
 response = requests.get("https://hacker-news.firebaseio.com/v0/topstories.json")
-top_story_ids = response.json()[:20]
+top_story_ids = response.json()[:10]
 
 for story_id in top_story_ids:
     story = requests.get(f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json").json()
