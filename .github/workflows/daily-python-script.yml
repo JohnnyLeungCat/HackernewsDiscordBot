@@ -1,6 +1,6 @@
 name: Daily Python Script
 
-# UTC i.e. 17:00 in HK
+# UTC i.e. HKT = UTC + 8
 on:
   schedule:
     - cron: "0 9 * * *"
