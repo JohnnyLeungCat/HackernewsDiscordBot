@@ -1,5 +1,6 @@
 name: Daily Python Script
 
+# UTC i.e. 17:00 in HK
 on:
   schedule:
     - cron: "0 9 * * *"
