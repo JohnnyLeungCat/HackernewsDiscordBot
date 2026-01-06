@@ -1,4 +1,4 @@
-name: Daily Python Script
+name: Daily Python Script Runner
 
 # UTC i.e. HKT = UTC + 8
 on:
