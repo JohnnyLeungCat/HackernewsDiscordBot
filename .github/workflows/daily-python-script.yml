@@ -3,7 +3,7 @@ name: Daily Python Script Runner
 # UTC i.e. HKT = UTC + 8
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 7 * * *"
   workflow_dispatch:
 
 jobs:
